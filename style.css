@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1728902293794-99df76c0b017?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgb(0, 0, 0, 0));
+    width: 100%;
+    height: 10vh;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    height: 10vh;
+}
+
+li {
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+figure{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil{
+    background-color: rgb(54, 159, 51);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    width: 25vw;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 8px 16px;
+    width: 50vw;
+    height: 100%;
+}
+
+.voice-icon, .sök{
+    height: 24px;
+    cursor: pointer;
+    
+}
+
+.searchbar{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 2rem;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 50vh;
+    padding-left: 25px;
+    position: fixed;
+}
+
+.info-pic{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.info-pic p{
+    color: white;
+    text-decoration: underline;
+}
+
+.big{
+font-size: 1rem;
+}
+
+.small{
+    padding-top: 6px;
+    font-size: 13px;
+}
